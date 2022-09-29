@@ -1,6 +1,10 @@
+
 /*------------------------------BODY------------------------------*/
 
-body {font-family: "Roboto" , sans-serif;}
+body {font-family: "Roboto" , sans-serif;
+font-size: 14px;
+letter-spacing: 0.03em;
+}
 
 /*------------------------------GLOBAL------------------------------*/
 
@@ -12,7 +16,6 @@ body {font-family: "Roboto" , sans-serif;}
 
 .header-link {  
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
@@ -21,10 +24,9 @@ body {font-family: "Roboto" , sans-serif;}
 .header-link:hover , .header-link:focus {color: #2196F3;}
 
 
-
+                                   /* TYT ZROBUTU RAZOM */
 .header-mail {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
@@ -36,7 +38,6 @@ body {font-family: "Roboto" , sans-serif;}
 
 .header-tel {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
@@ -46,7 +47,7 @@ body {font-family: "Roboto" , sans-serif;}
 
 /*------------------------------HERO------------------------------*/
 
-.hero {background-color: #2F303A;}
+.hero , .info-ft {background-color: #2F303A;}
 
 .hero-h1 {
     font-weight: 900;
@@ -63,9 +64,6 @@ body {font-family: "Roboto" , sans-serif;}
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
 }
@@ -76,18 +74,14 @@ body {font-family: "Roboto" , sans-serif;}
 
 .skills-h3 {
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
 
 .skills-p {
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: #757575;
 }
     /*--------------ABOUT---------------*/
@@ -97,7 +91,6 @@ body {font-family: "Roboto" , sans-serif;}
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
     color: #212121;
 }
 
@@ -108,7 +101,6 @@ body {font-family: "Roboto" , sans-serif;}
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
     color: #212121;
 } 
 
@@ -116,17 +108,35 @@ body {font-family: "Roboto" , sans-serif;}
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
     color: #212121;
 }
 .team-p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
     color: #757575;}
 
+/*------------------------------FOOTER------------------------------*/
 
+ .address-ft {
+    font-weight: 400;
+    line-height: 1.71;
+    color: #FFFFFF;}
+
+/*------------------------------PORTFOLIO BUTTONS------------------------------*/
+
+/*------------------------------PORTFOLIO------------------------------*/
+.portfolio-h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height:2;
+    letter-spacing: 0.06em;
+    color: #212121;}
     
+.portfolio-txt {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    color: #757575;}
+
