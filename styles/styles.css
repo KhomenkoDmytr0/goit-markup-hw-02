@@ -54,22 +54,25 @@ footer .logo-studio {
 
 
 .header-mail {
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
-}
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);}
+
 
 .header-mail:hover , .header-tel:hover {color: #2196F3; }
 
 
 
 .header-tel {
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
-}
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);}
 
 .header-mail:focus, .header-tel:focus {color: #2196F3;}
 
@@ -157,8 +160,7 @@ footer .logo-studio {
 /*------------------------------FOOTER------------------------------*/
 
  .address-ft {
-font-style: normal;
-    font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -177,11 +179,15 @@ font-style: normal;
     background-color: #F5F4FA;
     margin-left: 10px;
 
+font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+
     text-align: center;
     letter-spacing: 0.03em;
+
     color: #212121;}
 
 .portfolio-bt:focus {
