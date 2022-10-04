@@ -54,11 +54,14 @@ footer .logo-studio {
 
 
 .header-mail {
-    font-family: 'Roboto';
+
     font-style: normal;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);}
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #757575;}
 
 
 .header-mail:hover , .header-tel:hover {color: #2196F3; }
@@ -66,11 +69,14 @@ footer .logo-studio {
 
 
 .header-tel {
-    font-family: 'Roboto';
-        font-style: normal;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);}
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #757575;}
 
 .header-mail:focus, .header-tel:focus {color: #2196F3;}
 
@@ -112,9 +118,13 @@ footer .logo-studio {
 
 .skills-h3 {
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;}
+
+    color: #212121;;}
+
 
 .skills-p {
     font-weight: 400;
@@ -126,13 +136,13 @@ footer .logo-studio {
 .about-h2 {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-
+    text-align: center;
     color: #212121;
 }
+
 
 /*------------------------------TEAM------------------------------*/
 
